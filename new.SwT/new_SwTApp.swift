@@ -11,7 +11,9 @@ import SwiftUI
 struct new_SwTApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+//            FocusStateView()
+            IntroView()
         }
     }
 }
