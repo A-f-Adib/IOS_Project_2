@@ -13,7 +13,10 @@ struct new_SwTApp: App {
         WindowGroup {
 //            ContentView()
 //            FocusStateView()
-            IntroView()
+//            IntroView()
+//            CodableData()
+            CodableConformance()
         }
     }
+    
 }

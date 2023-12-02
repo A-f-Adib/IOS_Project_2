@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		742F59692B0BC3D700BB764B /* CodableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F59682B0BC3D700BB764B /* CodableData.swift */; };
+		742F596B2B0BFAA100BB764B /* LoadingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F596A2B0BFAA100BB764B /* LoadingImage.swift */; };
+		742F596D2B0BFF8500BB764B /* CodableConformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F596C2B0BFF8500BB764B /* CodableConformance.swift */; };
+		742F596F2B0C032E00BB764B /* HapticEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F596E2B0C032E00BB764B /* HapticEffects.swift */; };
 		7438BB902ABAEE10000CCFBA /* new_SwTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7438BB8F2ABAEE10000CCFBA /* new_SwTApp.swift */; };
 		7438BB922ABAEE10000CCFBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7438BB912ABAEE10000CCFBA /* ContentView.swift */; };
 		7438BB942ABAEE11000CCFBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7438BB932ABAEE11000CCFBA /* Assets.xcassets */; };
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		742F59682B0BC3D700BB764B /* CodableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableData.swift; sourceTree = "<group>"; };
+		742F596A2B0BFAA100BB764B /* LoadingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingImage.swift; sourceTree = "<group>"; };
+		742F596C2B0BFF8500BB764B /* CodableConformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableConformance.swift; sourceTree = "<group>"; };
+		742F596E2B0C032E00BB764B /* HapticEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticEffects.swift; sourceTree = "<group>"; };
 		7438BB8C2ABAEE10000CCFBA /* new.SwT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = new.SwT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7438BB8F2ABAEE10000CCFBA /* new_SwTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = new_SwTApp.swift; sourceTree = "<group>"; };
 		7438BB912ABAEE10000CCFBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +89,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		742F59652B0BC33100BB764B /* HackingWithSwift */ = {
+			isa = PBXGroup;
+			children = (
+				742F59682B0BC3D700BB764B /* CodableData.swift */,
+				742F596A2B0BFAA100BB764B /* LoadingImage.swift */,
+				742F596C2B0BFF8500BB764B /* CodableConformance.swift */,
+				742F596E2B0C032E00BB764B /* HapticEffects.swift */,
+			);
+			path = HackingWithSwift;
+			sourceTree = "<group>";
+		};
 		7438BB832ABAEE10000CCFBA = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +127,7 @@
 				7438BB912ABAEE10000CCFBA /* ContentView.swift */,
 				7438BBB92ABAEE81000CCFBA /* AppStorageView.swift */,
 				7438BBBB2ABAEEE2000CCFBA /* FocusStateView.swift */,
+				742F59652B0BC33100BB764B /* HackingWithSwift */,
 				7438BBBD2ABAF124000CCFBA /* OnBordingViews */,
 				7438BB932ABAEE11000CCFBA /* Assets.xcassets */,
 				7438BB952ABAEE11000CCFBA /* Preview Content */,
@@ -280,12 +300,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				742F59692B0BC3D700BB764B /* CodableData.swift in Sources */,
 				7438BBBA2ABAEE81000CCFBA /* AppStorageView.swift in Sources */,
 				7438BB922ABAEE10000CCFBA /* ContentView.swift in Sources */,
 				7438BBBF2ABAF153000CCFBA /* IntroView.swift in Sources */,
 				7438BBC32ABAF433000CCFBA /* OnBoardingView.swift in Sources */,
+				742F596F2B0C032E00BB764B /* HapticEffects.swift in Sources */,
 				7438BB902ABAEE10000CCFBA /* new_SwTApp.swift in Sources */,
+				742F596D2B0BFF8500BB764B /* CodableConformance.swift in Sources */,
 				7438BBC52ABBA77E000CCFBA /* ProfileView.swift in Sources */,
+				742F596B2B0BFAA100BB764B /* LoadingImage.swift in Sources */,
 				7438BBBC2ABAEEE2000CCFBA /* FocusStateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
