@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		741D5CDD2B376BA3006CE1D5 /* SortStringArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741D5CDC2B376BA3006CE1D5 /* SortStringArray.swift */; };
+		741D5CDF2B3775D4006CE1D5 /* FileManagerDoccument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741D5CDE2B3775D4006CE1D5 /* FileManagerDoccument.swift */; };
+		741D5CE12B378C36006CE1D5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741D5CE02B378C36006CE1D5 /* MapView.swift */; };
+		741D5CE32B379583006CE1D5 /* BioMetricUnlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741D5CE22B379583006CE1D5 /* BioMetricUnlock.swift */; };
+		7425140B2B1E824F00DCBCA4 /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7425140A2B1E824F00DCBCA4 /* JsonData.swift */; };
 		742F59692B0BC3D700BB764B /* CodableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F59682B0BC3D700BB764B /* CodableData.swift */; };
 		742F596B2B0BFAA100BB764B /* LoadingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F596A2B0BFAA100BB764B /* LoadingImage.swift */; };
 		742F596D2B0BFF8500BB764B /* CodableConformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F596C2B0BFF8500BB764B /* CodableConformance.swift */; };
@@ -23,6 +28,7 @@
 		7438BBBF2ABAF153000CCFBA /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7438BBBE2ABAF153000CCFBA /* IntroView.swift */; };
 		7438BBC32ABAF433000CCFBA /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7438BBC22ABAF433000CCFBA /* OnBoardingView.swift */; };
 		7438BBC52ABBA77E000CCFBA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7438BBC42ABBA77E000CCFBA /* ProfileView.swift */; };
+		743BDEA52B212DF300D92276 /* BreakingBadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BDEA42B212DF300D92276 /* BreakingBadJson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		741D5CDC2B376BA3006CE1D5 /* SortStringArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortStringArray.swift; sourceTree = "<group>"; };
+		741D5CDE2B3775D4006CE1D5 /* FileManagerDoccument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerDoccument.swift; sourceTree = "<group>"; };
+		741D5CE02B378C36006CE1D5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		741D5CE22B379583006CE1D5 /* BioMetricUnlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioMetricUnlock.swift; sourceTree = "<group>"; };
+		7425140A2B1E824F00DCBCA4 /* JsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonData.swift; sourceTree = "<group>"; };
 		742F59682B0BC3D700BB764B /* CodableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableData.swift; sourceTree = "<group>"; };
 		742F596A2B0BFAA100BB764B /* LoadingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingImage.swift; sourceTree = "<group>"; };
 		742F596C2B0BFF8500BB764B /* CodableConformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableConformance.swift; sourceTree = "<group>"; };
@@ -62,6 +73,7 @@
 		7438BBBE2ABAF153000CCFBA /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		7438BBC22ABAF433000CCFBA /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		7438BBC42ABBA77E000CCFBA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		743BDEA42B212DF300D92276 /* BreakingBadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBadJson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		741D5CDB2B376B5F006CE1D5 /* Project_14 */ = {
+			isa = PBXGroup;
+			children = (
+				741D5CDC2B376BA3006CE1D5 /* SortStringArray.swift */,
+				741D5CDE2B3775D4006CE1D5 /* FileManagerDoccument.swift */,
+				741D5CE02B378C36006CE1D5 /* MapView.swift */,
+				741D5CE22B379583006CE1D5 /* BioMetricUnlock.swift */,
+			);
+			path = Project_14;
+			sourceTree = "<group>";
+		};
 		742F59652B0BC33100BB764B /* HackingWithSwift */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +119,8 @@
 				742F596A2B0BFAA100BB764B /* LoadingImage.swift */,
 				742F596C2B0BFF8500BB764B /* CodableConformance.swift */,
 				742F596E2B0C032E00BB764B /* HapticEffects.swift */,
+				7425140A2B1E824F00DCBCA4 /* JsonData.swift */,
+				743BDEA42B212DF300D92276 /* BreakingBadJson.swift */,
 			);
 			path = HackingWithSwift;
 			sourceTree = "<group>";
@@ -128,6 +153,7 @@
 				7438BBB92ABAEE81000CCFBA /* AppStorageView.swift */,
 				7438BBBB2ABAEEE2000CCFBA /* FocusStateView.swift */,
 				742F59652B0BC33100BB764B /* HackingWithSwift */,
+				741D5CDB2B376B5F006CE1D5 /* Project_14 */,
 				7438BBBD2ABAF124000CCFBA /* OnBordingViews */,
 				7438BB932ABAEE11000CCFBA /* Assets.xcassets */,
 				7438BB952ABAEE11000CCFBA /* Preview Content */,
@@ -300,6 +326,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				741D5CDF2B3775D4006CE1D5 /* FileManagerDoccument.swift in Sources */,
+				741D5CE12B378C36006CE1D5 /* MapView.swift in Sources */,
+				743BDEA52B212DF300D92276 /* BreakingBadJson.swift in Sources */,
 				742F59692B0BC3D700BB764B /* CodableData.swift in Sources */,
 				7438BBBA2ABAEE81000CCFBA /* AppStorageView.swift in Sources */,
 				7438BB922ABAEE10000CCFBA /* ContentView.swift in Sources */,
@@ -309,6 +338,9 @@
 				7438BB902ABAEE10000CCFBA /* new_SwTApp.swift in Sources */,
 				742F596D2B0BFF8500BB764B /* CodableConformance.swift in Sources */,
 				7438BBC52ABBA77E000CCFBA /* ProfileView.swift in Sources */,
+				741D5CDD2B376BA3006CE1D5 /* SortStringArray.swift in Sources */,
+				741D5CE32B379583006CE1D5 /* BioMetricUnlock.swift in Sources */,
+				7425140B2B1E824F00DCBCA4 /* JsonData.swift in Sources */,
 				742F596B2B0BFAA100BB764B /* LoadingImage.swift in Sources */,
 				7438BBBC2ABAEEE2000CCFBA /* FocusStateView.swift in Sources */,
 			);
@@ -473,6 +505,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"new.SwT/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Unlock data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -501,6 +534,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"new.SwT/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Unlock data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

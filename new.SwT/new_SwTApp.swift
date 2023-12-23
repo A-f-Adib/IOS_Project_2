@@ -15,7 +15,11 @@ struct new_SwTApp: App {
 //            FocusStateView()
 //            IntroView()
 //            CodableData()
-            CodableConformance()
+//            CodableConformance()
+//            JsonData()
+//            BreakingBadJson()
+            FileManagerDoccument()
+//            BioMetricUnlock()
         }
     }
     
