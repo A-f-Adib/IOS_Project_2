@@ -16,7 +16,11 @@ struct ContentShape: View {
             Text("World")
         }
         //making the top element response
-        
+        .contentShape(Rectangle())
+                .onTapGesture {
+                    print("Vstack tapped!")
+                }
+
         //top element refuse to response in zstack
         //.allowsHitTesting(false)
     }
