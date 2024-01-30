@@ -18,8 +18,10 @@ struct new_SwTApp: App {
 //            CodableConformance()
 //            JsonData()
 //            BreakingBadJson()
-            FileManagerDoccument()
+//            FileManagerDoccument()
 //            BioMetricUnlock()
+//            TextContextMenu()
+            UserNotification()
         }
     }
     

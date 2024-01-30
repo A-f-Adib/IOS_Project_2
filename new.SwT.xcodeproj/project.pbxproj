@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		741BDFCF2B46DB94005E5029 /* TextContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741BDFCE2B46DB94005E5029 /* TextContextMenu.swift */; };
+		741BDFD12B46E285005E5029 /* SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741BDFD02B46E285005E5029 /* SwipeActions.swift */; };
 		741D5CDD2B376BA3006CE1D5 /* SortStringArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741D5CDC2B376BA3006CE1D5 /* SortStringArray.swift */; };
 		741D5CDF2B3775D4006CE1D5 /* FileManagerDoccument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741D5CDE2B3775D4006CE1D5 /* FileManagerDoccument.swift */; };
 		741D5CE12B378C36006CE1D5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741D5CE02B378C36006CE1D5 /* MapView.swift */; };
 		741D5CE32B379583006CE1D5 /* BioMetricUnlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741D5CE22B379583006CE1D5 /* BioMetricUnlock.swift */; };
 		7425140B2B1E824F00DCBCA4 /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7425140A2B1E824F00DCBCA4 /* JsonData.swift */; };
+		742C2CF62B609D3900C8CF53 /* RotationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742C2CF52B609D3900C8CF53 /* RotationEffect.swift */; };
+		742C2CF82B609EB500C8CF53 /* PriorityGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742C2CF72B609EB500C8CF53 /* PriorityGesture.swift */; };
+		742C2CFA2B60A0A800C8CF53 /* CombinedGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742C2CF92B60A0A800C8CF53 /* CombinedGesture.swift */; };
+		742C2CFC2B60A6B600C8CF53 /* HapticEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742C2CFB2B60A6B600C8CF53 /* HapticEffect.swift */; };
+		742C2CFE2B60AED900C8CF53 /* ContentShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742C2CFD2B60AED900C8CF53 /* ContentShape.swift */; };
 		742F59692B0BC3D700BB764B /* CodableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F59682B0BC3D700BB764B /* CodableData.swift */; };
 		742F596B2B0BFAA100BB764B /* LoadingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F596A2B0BFAA100BB764B /* LoadingImage.swift */; };
 		742F596D2B0BFF8500BB764B /* CodableConformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F596C2B0BFF8500BB764B /* CodableConformance.swift */; };
 		742F596F2B0C032E00BB764B /* HapticEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F596E2B0C032E00BB764B /* HapticEffects.swift */; };
+		743110C02B48A29100AAA72E /* UserNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743110BF2B48A29100AAA72E /* UserNotification.swift */; };
+		743110C22B48A6A700AAA72E /* PackageDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743110C12B48A6A700AAA72E /* PackageDownload.swift */; };
+		743110C52B48A85E00AAA72E /* SamplePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 743110C42B48A85E00AAA72E /* SamplePackage */; };
 		7438BB902ABAEE10000CCFBA /* new_SwTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7438BB8F2ABAEE10000CCFBA /* new_SwTApp.swift */; };
 		7438BB922ABAEE10000CCFBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7438BB912ABAEE10000CCFBA /* ContentView.swift */; };
 		7438BB942ABAEE11000CCFBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7438BB932ABAEE11000CCFBA /* Assets.xcassets */; };
@@ -29,6 +39,12 @@
 		7438BBC32ABAF433000CCFBA /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7438BBC22ABAF433000CCFBA /* OnBoardingView.swift */; };
 		7438BBC52ABBA77E000CCFBA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7438BBC42ABBA77E000CCFBA /* ProfileView.swift */; };
 		743BDEA52B212DF300D92276 /* BreakingBadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743BDEA42B212DF300D92276 /* BreakingBadJson.swift */; };
+		7479B5F42B3E0A50002F119F /* UiAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479B5F32B3E0A50002F119F /* UiAccessibility.swift */; };
+		7479B5F62B3E11B5002F119F /* UiiAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479B5F52B3E11B5002F119F /* UiiAccessibility.swift */; };
+		7479B5F82B3E1811002F119F /* IncrementAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479B5F72B3E1811002F119F /* IncrementAccess.swift */; };
+		74A263EA2B46082E00B60A9F /* EvObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A263E92B46082E00B60A9F /* EvObject.swift */; };
+		74A263EC2B460E8A00B60A9F /* ChangingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A263EB2B460E8A00B60A9F /* ChangingObject.swift */; };
+		74A263EE2B4617FA00B60A9F /* TaskAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A263ED2B4617FA00B60A9F /* TaskAwait.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,15 +65,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		741BDFCE2B46DB94005E5029 /* TextContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextContextMenu.swift; sourceTree = "<group>"; };
+		741BDFD02B46E285005E5029 /* SwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActions.swift; sourceTree = "<group>"; };
 		741D5CDC2B376BA3006CE1D5 /* SortStringArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortStringArray.swift; sourceTree = "<group>"; };
 		741D5CDE2B3775D4006CE1D5 /* FileManagerDoccument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerDoccument.swift; sourceTree = "<group>"; };
 		741D5CE02B378C36006CE1D5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		741D5CE22B379583006CE1D5 /* BioMetricUnlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioMetricUnlock.swift; sourceTree = "<group>"; };
 		7425140A2B1E824F00DCBCA4 /* JsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonData.swift; sourceTree = "<group>"; };
+		742C2CF52B609D3900C8CF53 /* RotationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationEffect.swift; sourceTree = "<group>"; };
+		742C2CF72B609EB500C8CF53 /* PriorityGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityGesture.swift; sourceTree = "<group>"; };
+		742C2CF92B60A0A800C8CF53 /* CombinedGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedGesture.swift; sourceTree = "<group>"; };
+		742C2CFB2B60A6B600C8CF53 /* HapticEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticEffect.swift; sourceTree = "<group>"; };
+		742C2CFD2B60AED900C8CF53 /* ContentShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentShape.swift; sourceTree = "<group>"; };
 		742F59682B0BC3D700BB764B /* CodableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableData.swift; sourceTree = "<group>"; };
 		742F596A2B0BFAA100BB764B /* LoadingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingImage.swift; sourceTree = "<group>"; };
 		742F596C2B0BFF8500BB764B /* CodableConformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableConformance.swift; sourceTree = "<group>"; };
 		742F596E2B0C032E00BB764B /* HapticEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticEffects.swift; sourceTree = "<group>"; };
+		743110BF2B48A29100AAA72E /* UserNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotification.swift; sourceTree = "<group>"; };
+		743110C12B48A6A700AAA72E /* PackageDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageDownload.swift; sourceTree = "<group>"; };
 		7438BB8C2ABAEE10000CCFBA /* new.SwT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = new.SwT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7438BB8F2ABAEE10000CCFBA /* new_SwTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = new_SwTApp.swift; sourceTree = "<group>"; };
 		7438BB912ABAEE10000CCFBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +99,12 @@
 		7438BBC22ABAF433000CCFBA /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		7438BBC42ABBA77E000CCFBA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		743BDEA42B212DF300D92276 /* BreakingBadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBadJson.swift; sourceTree = "<group>"; };
+		7479B5F32B3E0A50002F119F /* UiAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiAccessibility.swift; sourceTree = "<group>"; };
+		7479B5F52B3E11B5002F119F /* UiiAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiiAccessibility.swift; sourceTree = "<group>"; };
+		7479B5F72B3E1811002F119F /* IncrementAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementAccess.swift; sourceTree = "<group>"; };
+		74A263E92B46082E00B60A9F /* EvObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvObject.swift; sourceTree = "<group>"; };
+		74A263EB2B460E8A00B60A9F /* ChangingObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangingObject.swift; sourceTree = "<group>"; };
+		74A263ED2B4617FA00B60A9F /* TaskAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAwait.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743110C52B48A85E00AAA72E /* SamplePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +142,18 @@
 				741D5CE22B379583006CE1D5 /* BioMetricUnlock.swift */,
 			);
 			path = Project_14;
+			sourceTree = "<group>";
+		};
+		742C2CF42B609D1000C8CF53 /* Project_17 */ = {
+			isa = PBXGroup;
+			children = (
+				742C2CF52B609D3900C8CF53 /* RotationEffect.swift */,
+				742C2CF72B609EB500C8CF53 /* PriorityGesture.swift */,
+				742C2CF92B60A0A800C8CF53 /* CombinedGesture.swift */,
+				742C2CFB2B60A6B600C8CF53 /* HapticEffect.swift */,
+				742C2CFD2B60AED900C8CF53 /* ContentShape.swift */,
+			);
+			path = Project_17;
 			sourceTree = "<group>";
 		};
 		742F59652B0BC33100BB764B /* HackingWithSwift */ = {
@@ -154,6 +198,9 @@
 				7438BBBB2ABAEEE2000CCFBA /* FocusStateView.swift */,
 				742F59652B0BC33100BB764B /* HackingWithSwift */,
 				741D5CDB2B376B5F006CE1D5 /* Project_14 */,
+				7479B5F22B3E0A1A002F119F /* Project_15 */,
+				74A263E82B45FBC400B60A9F /* Project_16 */,
+				742C2CF42B609D1000C8CF53 /* Project_17 */,
 				7438BBBD2ABAF124000CCFBA /* OnBordingViews */,
 				7438BB932ABAEE11000CCFBA /* Assets.xcassets */,
 				7438BB952ABAEE11000CCFBA /* Preview Content */,
@@ -196,6 +243,30 @@
 			path = OnBordingViews;
 			sourceTree = "<group>";
 		};
+		7479B5F22B3E0A1A002F119F /* Project_15 */ = {
+			isa = PBXGroup;
+			children = (
+				7479B5F32B3E0A50002F119F /* UiAccessibility.swift */,
+				7479B5F52B3E11B5002F119F /* UiiAccessibility.swift */,
+				7479B5F72B3E1811002F119F /* IncrementAccess.swift */,
+			);
+			path = Project_15;
+			sourceTree = "<group>";
+		};
+		74A263E82B45FBC400B60A9F /* Project_16 */ = {
+			isa = PBXGroup;
+			children = (
+				74A263E92B46082E00B60A9F /* EvObject.swift */,
+				74A263EB2B460E8A00B60A9F /* ChangingObject.swift */,
+				74A263ED2B4617FA00B60A9F /* TaskAwait.swift */,
+				741BDFCE2B46DB94005E5029 /* TextContextMenu.swift */,
+				741BDFD02B46E285005E5029 /* SwipeActions.swift */,
+				743110BF2B48A29100AAA72E /* UserNotification.swift */,
+				743110C12B48A6A700AAA72E /* PackageDownload.swift */,
+			);
+			path = Project_16;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -212,6 +283,9 @@
 			dependencies = (
 			);
 			name = new.SwT;
+			packageProductDependencies = (
+				743110C42B48A85E00AAA72E /* SamplePackage */,
+			);
 			productName = new.SwT;
 			productReference = 7438BB8C2ABAEE10000CCFBA /* new.SwT.app */;
 			productType = "com.apple.product-type.application";
@@ -284,6 +358,9 @@
 				Base,
 			);
 			mainGroup = 7438BB832ABAEE10000CCFBA;
+			packageReferences = (
+				743110C32B48A85E00AAA72E /* XCRemoteSwiftPackageReference "SamplePackage" */,
+			);
 			productRefGroup = 7438BB8D2ABAEE10000CCFBA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -326,18 +403,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				742C2CF62B609D3900C8CF53 /* RotationEffect.swift in Sources */,
 				741D5CDF2B3775D4006CE1D5 /* FileManagerDoccument.swift in Sources */,
 				741D5CE12B378C36006CE1D5 /* MapView.swift in Sources */,
 				743BDEA52B212DF300D92276 /* BreakingBadJson.swift in Sources */,
+				74A263EC2B460E8A00B60A9F /* ChangingObject.swift in Sources */,
 				742F59692B0BC3D700BB764B /* CodableData.swift in Sources */,
 				7438BBBA2ABAEE81000CCFBA /* AppStorageView.swift in Sources */,
+				741BDFD12B46E285005E5029 /* SwipeActions.swift in Sources */,
 				7438BB922ABAEE10000CCFBA /* ContentView.swift in Sources */,
 				7438BBBF2ABAF153000CCFBA /* IntroView.swift in Sources */,
+				742C2CFA2B60A0A800C8CF53 /* CombinedGesture.swift in Sources */,
+				7479B5F82B3E1811002F119F /* IncrementAccess.swift in Sources */,
 				7438BBC32ABAF433000CCFBA /* OnBoardingView.swift in Sources */,
+				7479B5F42B3E0A50002F119F /* UiAccessibility.swift in Sources */,
+				742C2CFC2B60A6B600C8CF53 /* HapticEffect.swift in Sources */,
+				74A263EE2B4617FA00B60A9F /* TaskAwait.swift in Sources */,
 				742F596F2B0C032E00BB764B /* HapticEffects.swift in Sources */,
 				7438BB902ABAEE10000CCFBA /* new_SwTApp.swift in Sources */,
+				742C2CF82B609EB500C8CF53 /* PriorityGesture.swift in Sources */,
 				742F596D2B0BFF8500BB764B /* CodableConformance.swift in Sources */,
+				741BDFCF2B46DB94005E5029 /* TextContextMenu.swift in Sources */,
+				743110C02B48A29100AAA72E /* UserNotification.swift in Sources */,
 				7438BBC52ABBA77E000CCFBA /* ProfileView.swift in Sources */,
+				743110C22B48A6A700AAA72E /* PackageDownload.swift in Sources */,
+				74A263EA2B46082E00B60A9F /* EvObject.swift in Sources */,
+				742C2CFE2B60AED900C8CF53 /* ContentShape.swift in Sources */,
+				7479B5F62B3E11B5002F119F /* UiiAccessibility.swift in Sources */,
 				741D5CDD2B376BA3006CE1D5 /* SortStringArray.swift in Sources */,
 				741D5CE32B379583006CE1D5 /* BioMetricUnlock.swift in Sources */,
 				7425140B2B1E824F00DCBCA4 /* JsonData.swift in Sources */,
@@ -665,6 +757,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		743110C32B48A85E00AAA72E /* XCRemoteSwiftPackageReference "SamplePackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/SamplePackage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		743110C42B48A85E00AAA72E /* SamplePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 743110C32B48A85E00AAA72E /* XCRemoteSwiftPackageReference "SamplePackage" */;
+			productName = SamplePackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7438BB842ABAEE10000CCFBA /* Project object */;
 }
