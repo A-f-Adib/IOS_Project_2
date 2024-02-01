@@ -10,10 +10,10 @@ import SwiftUI
 struct ContentShape: View {
     var body: some View {
         VStack {
-            Text("Hello")
+            Text("Content Shape begin")
                 Spacer()
                 .frame(height : 200)
-            Text("World")
+            Text("Content shape end")
         }
         //making the top element response
         .contentShape(Rectangle())
@@ -22,7 +22,7 @@ struct ContentShape: View {
                 }
 
         //top element refuse to response in zstack
-        //.allowsHitTesting(false)
+//        .allowsHitTesting(false)
     }
 }
 
