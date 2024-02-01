@@ -14,11 +14,11 @@ struct TextContextMenu: View {
     
     var body: some View {
         VStack {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            Text("Taylor swift")
                 .padding()
                 .background(background)
             
-            Text("Change Color")
+            Text("Change the Color of the text")
                 .padding()
                 .contextMenu {
                     Button(role : .destructive) {
