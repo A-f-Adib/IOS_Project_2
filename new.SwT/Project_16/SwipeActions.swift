@@ -32,7 +32,7 @@ struct SwipeActions: View {
                 
                     .swipeActions(edge : .trailing) {
                         Button {
-                            print("Text is Pinned")
+                            print("The Text is Pinned")
                         } label : {
                             Label("Pin", systemImage: "pin")
                         }
@@ -40,7 +40,7 @@ struct SwipeActions: View {
                 
                     .swipeActions(edge : .leading) {
                         Button {
-                            print("Text is Pinned ")
+                            print("The Text is Pinned ")
                         } label : {
                             Label("Pin", systemImage: "pin")
                         }
