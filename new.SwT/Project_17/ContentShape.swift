@@ -10,10 +10,10 @@ import SwiftUI
 struct ContentShape: View {
     var body: some View {
         VStack {
-            Text("Content Shape begin")
+            Text("Content Shape begins here")
                 Spacer()
                 .frame(height : 200)
-            Text("Content shape end")
+            Text("Content shape ends here")
         }
         //making the top element response
         .contentShape(Rectangle())
