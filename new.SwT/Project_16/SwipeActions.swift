@@ -12,7 +12,7 @@ struct SwipeActions: View {
         NavigationView {
             List
             {
-                Text("Taylor Swift")
+                Text("Hacking with swift")
                     .swipeActions {
                         Button {
                             print("Message sent")
@@ -21,10 +21,10 @@ struct SwipeActions: View {
                         }
                     }
                 
-                Text("Hacking with Swift")
+                Text("Taylor Swift")
                     .swipeActions {
                         Button(role : .destructive) {
-                            print("Deleted")
+                            print(" Text Deleted")
                         } label: {
                             Label("Delete", systemImage: "minus.circle")
                         }
@@ -40,7 +40,7 @@ struct SwipeActions: View {
                 
                     .swipeActions(edge : .leading) {
                         Button {
-                            print("Pinned")
+                            print("Pinned text")
                         } label : {
                             Label("Pin", systemImage: "pin")
                         }
