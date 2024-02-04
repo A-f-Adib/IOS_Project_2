@@ -22,8 +22,8 @@ struct UiiAccessibility: View {
                 .font(.title)
             
         }
-//        .accessibilityElement(children: .combine)
-        .accessibilityElement(children: .ignore)
+        .accessibilityElement(children: .combine)
+//        .accessibilityElement(children: .ignore)
         .accessibilityLabel("Your score is 1000")
         
     }
