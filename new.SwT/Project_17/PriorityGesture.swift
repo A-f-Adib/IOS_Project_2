@@ -14,6 +14,8 @@ struct PriorityGesture: View {
             //vstack tapped will print
             VStack {
                 Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+                    .padding()
+                    .font(.title)
                     .onTapGesture {
                         print("Text Tapped")
                     }
@@ -24,9 +26,12 @@ struct PriorityGesture: View {
                     })
         )
             
+            
             //both text will print
             VStack {
                 Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+                    .padding()
+                    .font(.title)
                     .onTapGesture {
                         print("Text Tapped")
                     }
