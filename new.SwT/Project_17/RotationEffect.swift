@@ -12,7 +12,7 @@ struct RotationEffect: View {
     @State private var finalAmount = Angle.zero
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Taylor Swift")
             .rotationEffect(currentAmount + finalAmount)
             .gesture(
                 RotationGesture()
