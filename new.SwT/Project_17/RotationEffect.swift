@@ -16,10 +16,10 @@ struct RotationEffect: View {
             .rotationEffect(currentAmount + finalAmount)
             .gesture(
                 RotationGesture()
-                    .onChanged({ angle in
-                        currentAmount = angle
+                    .onChanged({ rotation in
+                        currentAmount = rotation
                     })
-                    .onEnded({ angle in
+                    .onEnded({ rotation in
                         finalAmount += currentAmount
                         currentAmount = .zero
                     })
