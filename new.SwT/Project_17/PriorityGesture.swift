@@ -16,6 +16,9 @@ struct PriorityGesture: View {
                 Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
                     .padding()
                     .font(.title)
+                    .background(.red)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
                     .onTapGesture {
                         print("Text Tapped")
                     }
